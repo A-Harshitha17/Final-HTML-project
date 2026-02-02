@@ -45,7 +45,8 @@ audio {
 
 video {
   border-radius: 15px;
-  border: 5px solid rgb(247, 5, 5);
+  border: 2px solid rgb(247, 5, 5);
+  box-shadow: 0 5px 30px red;
 }
 
 p {
@@ -60,6 +61,7 @@ p {
 
 img {
   border-radius: 15px;
-  border: 5px solid rgb(247, 5, 5);
+  border: 2px solid rgb(247, 5, 5);
+  box-shadow: 0 5px 30px red;
   padding: auto;
 }
