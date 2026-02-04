@@ -1,0 +1,145 @@
+/* -------- Global Reset -------- */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #eaeef3;
+  color: #2b2b2b;
+}
+
+/* -------- Navigation -------- */
+.nav {
+  background-color: #1e293b;
+  width: 90%;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.nav_list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.nav_item {
+  display: inline;
+  margin: 0 12px;
+}
+
+.nav_item a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 8px 14px;
+  background-color: #334155;
+  border-radius: 5px;
+  border: 1px solid #475569;
+}
+
+.nav_item a:hover {
+  background-color: #3b82f6;
+  border-color: #3b82f6;
+}
+
+/* -------- Main Heading -------- */
+h1 {
+  text-align: center;
+  margin: 25px auto;
+  padding: 15px;
+  width: 90%;
+  background-color: #ffffff;
+  color: #1e293b;
+  border-radius: 10px;
+  border: 2px solid #c7d2fe;
+}
+
+/* -------- Intro Paragraph -------- */
+body > p {
+  text-align: center;
+  margin: 10px auto 30px;
+  padding: 10px;
+  width: 85%;
+  background-color: #f8fafc;
+  border-left: 5px solid #3b82f6;
+}
+
+/* -------- Section Cards -------- */
+section {
+  width: 85%;
+  margin: 25px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #dbeafe;
+}
+
+/* -------- Section Headings -------- */
+h2 {
+  color: #1d4ed8;
+  margin-bottom: 12px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #93c5fd;
+}
+
+/* -------- Paragraphs -------- */
+section p {
+  margin: 10px 0;
+  padding: 8px;
+  background-color: #f1f5f9;
+  border-left: 4px solid #60a5fa;
+}
+
+/* -------- Lists -------- */
+ul,
+ol,
+dl {
+  margin: 15px 20px;
+  padding: 15px;
+  background-color: #f8fafc;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* -------- Definition List -------- */
+dt {
+  font-weight: bold;
+  color: #0f172a;
+}
+
+dd {
+  margin-left: 20px;
+  color: #475569;
+}
+
+/* -------- Links -------- */
+a {
+  color: #2563eb;
+}
+
+a:hover {
+  color: #1e40af;
+}
+
+/* -------- Images -------- */
+img {
+  margin: 6px;
+  padding: 4px;
+  border: 2px solid #94a3b8;
+  border-radius: 6px;
+  background-color: #ffffff;
+}
+
+/* -------- Contact Section -------- */
+#contact {
+  background-color: #f0f9ff;
+  border: 2px solid #7dd3fc;
+}

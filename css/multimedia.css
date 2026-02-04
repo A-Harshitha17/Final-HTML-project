@@ -1,52 +1,53 @@
 body {
-  background-color: rgb(236, 107, 215);
-  color: aliceblue;
+  background-color: #0f172a; /* dark slate */
+  color: #e5e7eb; /* soft white */
 }
 
 h1 {
-  background-color: cadetblue;
+  background-color: #1e293b; /* dark blue */
   text-align: center;
   border-radius: 10px;
   padding: 20px;
   width: auto;
-  -webkit-text-stroke-color: blue;
+  -webkit-text-stroke-color: #38bdf8; /* sky blue */
   -webkit-text-stroke-width: 2px;
 }
 
 h2 {
-  background-color: rgb(218, 35, 35);
-  color: rgb(173, 121, 223);
+  background-color: #334155; /* slate */
+  color: #e0f2fe; /* very light blue */
   border-radius: 10px;
   padding-bottom: 10px;
   padding-top: 20px;
   padding-left: 15px;
   border-top: 30px;
-  box-shadow: -5px 0px 2px rgb(17, 204, 17);
+  box-shadow: -5px 0px 2px #38bdf8; /* blue glow */
 }
 
 .movie_title {
-  background-color: rgb(44, 33, 194);
-  color: rgb(89, 247, 41);
-  border-radius: 10px;
-  box-shadow: none;
+  background-color: #020617; /* deep black-blue */
+  color: #facc15; /* gold */
+  border-radius: 20px;
 }
+
 h3 {
-  color: rgb(20, 37, 109);
+  color: #93c5fd; /* light blue */
   font-size: larger;
   padding-bottom: 10px;
 }
 
 audio {
   width: 100%;
-  box-shadow: 8px -10px 10px rgb(127, 247, 58);
+  box-shadow: 8px -10px 10px #22c55e; /* soft green */
   border-radius: 30px;
   padding-bottom: 10px;
 }
 
 video {
   border-radius: 15px;
-  border: 2px solid rgb(247, 5, 5);
-  box-shadow: 0 5px 30px red;
+  border: 2px solid #38bdf8; /* sky blue */
+  box-shadow: 0 5px 30px #0ea5e9;
+  margin-left: 20px;
 }
 
 p {
@@ -56,12 +57,12 @@ p {
   margin: auto;
   border-top: 30px;
   border-left: 10px;
-  box-shadow: -5px 0px 2px rgb(17, 204, 17);
+  box-shadow: -5px 0px 2px #60a5fa;
 }
 
 img {
   border-radius: 15px;
-  border: 2px solid rgb(247, 5, 5);
-  box-shadow: 0 5px 30px red;
+  border: 2px solid #38bdf8;
+  box-shadow: 0 5px 30px #0ea5e9;
   padding: auto;
 }
